@@ -10,7 +10,7 @@ print(sys.version)
 
 remoteControl.wakeonlan.send_magic_packet('54:bd:79:40:4d:7d')  #wake samsung tv cia MAC address
 
-openai.api_key = "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"  #
+openai.api_key = "***********************"  #REPLACE WITH YOUR OPENAI API KEY 
 
 messages = [ {"role": "system", "content": "You are a intelligent assistant"}]
 
